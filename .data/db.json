@@ -1,0 +1,111 @@
+{
+  "complaints": [
+    {
+      "ticketNumber": "TKT-ZWV-906282",
+      "patientName": "Budi Cahyono",
+      "department": "outpatient",
+      "complaintText": "masa lama banget si",
+      "insuranceProvider": "bpjs",
+      "status": "reviewing",
+      "urgencyScore": 50,
+      "priorityScore": 50,
+      "id": "b18aaa90-8b27-4501-a950-a8d10886a6ba",
+      "createdAt": "2026-04-05T07:25:06.283Z",
+      "updatedAt": "2026-04-05T07:25:07.303Z",
+      "clusterId": "de2e7898-244d-418f-9877-e2813642fc64",
+      "clusterName": "Keluhan Masa",
+      "clusterVolume": 1
+    },
+    {
+      "ticketNumber": "TKT-FR7-967878",
+      "patientName": "Zauzan",
+      "department": "pharmacy",
+      "complaintText": "racik obat lama banget anjay",
+      "insuranceProvider": "cigna",
+      "status": "reviewing",
+      "urgencyScore": 50,
+      "priorityScore": 50,
+      "id": "76eb479c-683c-4ee9-a717-c45ce51b4b73",
+      "createdAt": "2026-04-05T07:26:07.879Z",
+      "updatedAt": "2026-04-05T07:26:08.890Z",
+      "clusterId": "f92546d0-b08e-4908-81cf-983892158732",
+      "clusterName": "Keluhan Racik",
+      "clusterVolume": 1
+    },
+    {
+      "ticketNumber": "TKT-TNR-227297",
+      "patientName": "Palen",
+      "department": "pharmacy",
+      "complaintText": "gila oi, antri 2 jam lebih",
+      "insuranceProvider": "allianz",
+      "status": "reviewing",
+      "urgencyScore": 50,
+      "priorityScore": 50,
+      "id": "93e20b21-e0d9-40c7-bc68-f2ddbbf4889a",
+      "createdAt": "2026-04-05T07:30:27.300Z",
+      "updatedAt": "2026-04-05T07:30:28.324Z",
+      "clusterId": "1841ef06-6de3-4ef9-8a48-d48ae9fb18ae",
+      "clusterName": "Keluhan Gila",
+      "clusterVolume": 1
+    },
+    {
+      "ticketNumber": "TKT-SAY-998764",
+      "patientName": "Raisha",
+      "department": "igd",
+      "complaintText": "Tolong dong kalo orang mau ke igd itu cepet penanganannya, org tau igd malah pada main game,",
+      "insuranceProvider": "bpjs",
+      "status": "reviewing",
+      "urgencyScore": 50,
+      "priorityScore": 50,
+      "id": "b410fa12-1f4e-48cc-95dd-709dac295c43",
+      "createdAt": "2026-04-05T07:43:18.766Z",
+      "updatedAt": "2026-04-05T07:43:19.785Z",
+      "clusterId": "fd3699f6-7d56-49f7-a526-4925b72d8029",
+      "clusterName": "Keluhan Tolong",
+      "clusterVolume": 1
+    }
+  ],
+  "clusters": [
+    {
+      "name": "Keluhan Masa",
+      "keyword": "masa",
+      "volume": 1,
+      "relatedComplaintIds": [
+        "b18aaa90-8b27-4501-a950-a8d10886a6ba"
+      ],
+      "id": "de2e7898-244d-418f-9877-e2813642fc64",
+      "createdAt": "2026-04-05T07:25:07.302Z"
+    },
+    {
+      "name": "Keluhan Racik",
+      "keyword": "racik",
+      "volume": 1,
+      "relatedComplaintIds": [
+        "76eb479c-683c-4ee9-a717-c45ce51b4b73"
+      ],
+      "id": "f92546d0-b08e-4908-81cf-983892158732",
+      "createdAt": "2026-04-05T07:26:08.889Z"
+    },
+    {
+      "name": "Keluhan Gila",
+      "keyword": "gila",
+      "volume": 1,
+      "relatedComplaintIds": [
+        "93e20b21-e0d9-40c7-bc68-f2ddbbf4889a"
+      ],
+      "id": "1841ef06-6de3-4ef9-8a48-d48ae9fb18ae",
+      "createdAt": "2026-04-05T07:30:28.322Z"
+    },
+    {
+      "name": "Keluhan Tolong",
+      "keyword": "tolong",
+      "volume": 1,
+      "relatedComplaintIds": [
+        "b410fa12-1f4e-48cc-95dd-709dac295c43"
+      ],
+      "id": "fd3699f6-7d56-49f7-a526-4925b72d8029",
+      "createdAt": "2026-04-05T07:43:19.784Z"
+    }
+  ],
+  "lastUpdated": "2026-04-05T07:43:19.785Z"
+}
