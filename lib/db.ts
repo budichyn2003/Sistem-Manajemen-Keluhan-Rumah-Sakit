@@ -22,6 +22,7 @@ export const ComplaintSchema = z.object({
   clusterVolume: z.number().default(1),
   priorityScore: z.number().default(0),
   urgencyScore: z.number().default(50),
+  aiTarget: z.string().optional(),
   createdAt: z.date(),
   updatedAt: z.date(),
 });

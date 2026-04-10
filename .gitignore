@@ -14,3 +14,19 @@ next.user-config.*
 node_modules
 .next/
 .DS_Store
+
+.venv
+
+# Virtual environments
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+
+venv/
+**/venv/
+ai-service/venv/
