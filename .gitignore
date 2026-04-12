@@ -32,3 +32,10 @@ pyvenv.cfg
 venv/
 **/venv/
 ai-service/venv/
+
+.env
+.env.local
+
+**/.env
+.env
+ai-service/.env
